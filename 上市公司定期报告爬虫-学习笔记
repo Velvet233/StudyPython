@@ -1,0 +1,71 @@
+#1）用chrome浏览器打开网页：我们给网站发了一个请求，网站跟我们返回了一系列信息+javaScript程序的综合作用，把网页呈现给你
+#2）网址
+#   http://query.sse.com.cn/infodisplay/queryBltnBookInfo.do
+#3）标志符号?
+#  人肉解析
+#  http://query.sse.com.cn/security/stock/queryCompanyBulletin.do
+#  ?
+#  jsonCallBack=jsonpCallback97604&isPagination=true&productId=&keyWord=&securityType=0101
+#  &reportType2=&reportType=ALL&beginDate=2019-01-01&endDate=2019-01-30
+#  &pageHelp.pageSize=25&pageHelp.pageCount=50&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5
+#  &_=1576040173383p.endPage=5&_=1576038378952
+#
+#  http://query.sse.com.cn/security/stock/queryCompanyBulletin.do
+#  ?
+#  jsonCallBack=jsonpCallback12713&isPagination=true&productId=&keyWord=&securityType=0101%2C120100%2C020100%2C020200%2C120200&
+#  reportType2=&reportType=ALL&beginDate=2019-01-01&endDate=2019-01-30
+#  &pageHelp.pageSize=25&pageHelp.pageCount=50&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5
+#  &_=1576040173382
+#
+#
+#4）
+#前
+#Referer: http://www.sse.com.cn/disclosure/listedinfo/announcement/ 从哪个链接来
+#jsonCallBack: jsonpCallback12713
+#isPagination: true
+#productId: 
+#keyWord: 
+#securityType: 0101,120100,020100,020200,120200
+#reportType2: 
+#reportType: ALL
+#beginDate: 2019-01-01
+#endDate: 2019-01-30
+#pageHelp.pageSize: 25
+#pageHelp.pageCount: 50
+#pageHelp.pageNo: 1
+#pageHelp.beginPage: 1
+#pageHelp.cacheSize: 1
+#pageHelp.endPage: 5
+#_: 1576040173382
+#
+#后
+#Referer: http://www.sse.com.cn/disclosure/listedinfo/announcement/ 从哪个链接来
+#jsonCallBack: jsonpCallback97604
+#isPagination: true
+#productId: 
+#keyWord: 
+#securityType: 0101
+#reportType2: 
+#reportType: ALL
+#beginDate: 2019-01-01
+#endDate: 2019-01-30
+#pageHelp.pageSize: 25
+#pageHelp.pageCount: 50
+#pageHelp.pageNo: 1
+#pageHelp.beginPage: 1
+#pageHelp.cacheSize: 1
+#pageHelp.endPage: 5
+#_: 1576040173383
+#5）
+#当你向服务器发出请求后，服务器会给你发回信息
+#network 里的 response
+#
+#
+
+
+
+
+
+
+
+
