@@ -15,7 +15,7 @@ def get_and_download_pdf():
         file_name=every_report['TITLE']+'.pdf'
         resource = requests.get(pdf_url,stream=True)#下载
         with open(file_name,'wb') as temp:
-            for chunk in resource.iter_counter(1024):
+            for chunk in resource.iter_content(1024):
                 temp.write(chunk)
             print("上市公司报告:"+file_name+",已经完成下载")
 
